@@ -1,16 +1,40 @@
-## Hi there 👋
+# 👋 Hi, I'm Sourav Yadav
 
-<!--
-**Sourav-IIITBPL/Sourav-IIITBPL** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🛡️ Smart Contract Auditor | 🧱 Blockchain Developer | 🌐 Web3 Engineer
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🔍 About Me
+- Smart contract auditor with **4 High + 2 Medium** severity findings
+- Experience auditing **DeFi protocols, AMMs, tokens, and staking logic**
+- Strong background in **Solidity, Foundry, ERC20, ERC721**
+- Frontend experience with **React + Web3 integrations**
+
+---
+
+## 🧠 Technical Skills
+- **Blockchain:** Solidity, ERC20, ERC721, DeFi
+- **Security:** Reentrancy, Access Control, Logic Bugs, Precision Errors
+- **Testing:** Foundry (Unit tests, Fuzzing, Invariants)
+- **Frontend:** React, JavaScript, HTML, CSS
+- **Tools:** Git, Remix, Ethers.js
+
+---
+
+## 🧪 Audit Experience
+- Competitive audits on **Cyfrin / CodeHawks**
+- Audited real-world production protocols
+- Focus on **logic, economic, and edge-case vulnerabilities**
+
+---
+
+## 🚀 Projects
+- 🔐 DeFi Protocol Security Reviews
+- 🎮 Web3 Play-to-Earn Game (in progress)
+- 🖼️ NFT Smart Contracts
+
+---
+
+## 📫 Connect With Me
+- GitHub: https://github.com/Sourav-IIITBPL
+- LinkedIn: (add link)
