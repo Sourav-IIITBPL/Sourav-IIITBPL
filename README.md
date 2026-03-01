@@ -20,6 +20,7 @@
 </a>
 
 </div>
+
 ---
 
 ## 🔗 Profiles
@@ -35,146 +36,122 @@
 - **Email:** sourav.dev.official@outlook.com  
 - **X (Twitter):** @0xSouravAudit  
 - **LinkedIn:** https://linkedin.com/in/0xsourav  
-- **Discord:** miracles_25  
+- **Discord:** miracles_25
+
+---
 
 ## 🛡 Smart Contract Security Research
 
-Security-focused engineer auditing production-grade DeFi systems.
+Security-focused engineer auditing production-grade DeFi protocols with emphasis on invariant preservation and economic safety.
 
-- Audited **15+ DeFi protocols**
-- Reported **2 High** and **2 Medium** severity vulnerabilities
-- Built Proof-of-Concept exploits demonstrating:
-  - Broken invariants
-  - Precision loss issues
+- Audited **16+ DeFi systems**
+- Reported multiple High and Medium severity vulnerabilities
+- Built PoC exploits demonstrating:
+  - Invariant violations
+  - Precision & rounding flaws
   - State desynchronization
-  - Economic loss vectors
-  - Potential DoS conditions
+  - Economic exploit vectors
+  - DoS risks  
 
-### Core Audit Focus
+### Core Audit Capabilities
 
-- Manual code review
-- Invariant design & validation
-- Foundry (unit, fuzz, invariant testing)
-- Reentrancy & access control validation
-- Storage layout tracing
-- Gas optimization
-- Overflow & rounding analysis
-- Liquidation safety & health factor verification
-- BigNumber math & interest model analysis
-- Proxy / delegatecall risk assessment
+- Manual contract review & adversarial reasoning  
+- Invariant design & validation  
+- Foundry (unit, fuzz, invariant testing)  
+- Reentrancy & access control analysis  
+- Storage layout tracing & gas optimization  
+- Liquidation & health factor validation  
+- BigNumber math & interest model review  
+- Proxy / upgrade risk assessment  
 
-I approach audits from an adversarial systems perspective — not just surface-level bug detection.
+Full audit portfolio:  
+https://github.com/Sourav-IIITBPL/audits
 
----
+## 🏗 DeFi Protocol Architecture
 
-## 🏗 DeFi Protocol Architecture & Systems Understanding
-
-Deep working knowledge of:
+Strong architectural understanding of core DeFi primitives:
 
 ### AMMs
-- Uniswap V2 reserve math
-- Uniswap V3 concentrated liquidity mechanics
-- Price impact & slippage modeling
+- Uniswap V2 reserve math  
+- Uniswap V3 concentrated liquidity  
+- Curve V2/V3 invariant models  
+- Aave V3/V4 lending architecture (audited)
 
 ### Vault Systems
-- ERC-4626 accounting
-- Sync & async vault patterns
-- Share price mechanics
-- Deposit / redemption edge cases
+- ERC-4626 accounting  
+- Sync & async vault patterns  
+- Share pricing & redemption edge cases  
 
-### Lending Markets
-- Health factor calculations
-- Collateralization logic
-- Liquidation engines
-- Interest rate models
+### Lending & Risk Models
+- Health factor computation  
+- Collateral validation  
+- Liquidation mechanics  
+- Interest rate dynamics  
 
-### Token & Standard Familiarity
-- ERC-20
-- ERC-721
-- ERC-1155
-- ERC-4626
-- ERC-7575
-- ERC-6909
-- ERC-7521
+### Token Standards
+ERC-20, ERC-721, ERC-1155, ERC-165, ERC-4626, ERC-7575, ERC-6909, ERC-7521  
 
----
+My analysis focuses on correctness, invariant safety, and economic robustness under adversarial conditions.
 
-## 🌐 Web3 Infrastructure & Full-Stack Development
 
-I build both protocol-layer smart contracts and user-facing decentralized applications.
+## 🌐 Web3 Infrastructure & Engineering
 
-### Smart Contracts
-- Solidity
-- OpenZeppelin patterns
-- Upgradeable contracts
-- Storage packing & gas efficiency
+Builds secure smart contracts and production-grade dApps.
 
-### Frontend & Infra
-- React
-- Ethers.js / Viem / Wagmi
-- Node.js / Express
-- The Graph (subgraphs)
-- Tailwind CSS
-- Vercel deployment
+- Solidity, upgradeable architectures, gas optimization  
+- React + Ethers.js / Viem integration  
+- Node.js backend services  
+- Subgraph indexing with The Graph  
+- SQL-backed data systems  
+- Cloud deployment (Vercel / Netlify)  
 
-I design secure transaction flows and simulate protocol interactions before execution.
+Focused on secure transaction design and protocol-aware interaction flows.
 
----
 
-## 🚀 Selected Engineering Projects
+## 🚀 Major Engineering Projects
 
 ### 🔐 Preflight — Pre-Transaction Security Layer (Arbitrum)
 
-Protocol-aware middleware validating DeFi interactions before execution.
+Protocol-aware validation middleware for DeFi transactions.
 
-- Simulates swaps, vault deposits, liquidity actions
-- Detects unsafe state transitions
-- NFT-based on-chain risk reporting
-- Chainlink Functions integration
+- Simulates swaps, vault deposits, and liquidity flows  
+- Detects unsafe state transitions before execution  
+- NFT-based on-chain risk reporting  
+- Chainlink Functions integration  
 
----
+Project:  
+https://github.com/Sourav-IIITBPL/preflight  
+
 
 ### 🏦 UniV2ExchangeDesk — Multi-DEX Aggregator
 
-- Integrated 7 Uniswap V2 forks
-- Swap routing & liquidity flows
-- Reserve & price impact logic
-- Secure frontend-contract integration
+Swap infrastructure integrating 7 Uniswap V2 forks.
 
----
+- Cross-DEX routing & liquidity management  
+- Reserve tracking & price impact logic  
+- Secure frontend–contract interaction  
 
-### 🎮 On-Chain Strategy Contracts
+Project:  
+https://github.com/Sourav-IIITBPL/UniV2ExchangeDesk  
 
-- Rock Paper Scissors
-- Tic-Tac-Toe
-- Commit-reveal anti front-running protection
-- Gas-optimized storage packing
 
----
+## 🧠 Competitive Programming
 
-## 🧠 Competitive Programming & Core CS Strength
+- 200+ algorithmic problems solved  
+- Strong foundation in graph theory, DP, and optimization  
 
-- 200+ LeetCode problems solved
-- Peak contest rating: 1559
-- Strong in:
-  - Graph algorithms
-  - Dynamic programming
-  - Greedy optimization
-  - Mathematical reasoning
-  - Edge-case driven problem solving
+LeetCode:  https://leetcode.com/u/SouravIIIT 
+TakeUforward: https://takeuforward.org/profile/Sourav_iiitbpl 
 
-This foundation strengthens my smart contract reasoning and invariant analysis skills.
+This analytical foundation strengthens invariant reasoning and smart contract edge-case analysis.
 
----
 
 ## 🏆 Achievements & Certifications
 
 - Smart India Hackathon 2024 — Participant (Leader)
 - AlgoUniversity Tech Fellowship (ATF) 2024 & 2025 — Stage 1 Qualifier
-- Cyfrin Updraft — Smart Contract Development & Auditing  
-  (Insert certificate link)
+- Cyfrin Updraft Certifications - https://profiles.cyfrin.io/u/sourav_dev
 
----
 
 ## 🎓 Education
 
@@ -184,11 +161,9 @@ Class of 2027
 
 Pre College-Degree — Maharishi Vidya Mandir, Mandla (89.4%)
 
----
 
-## 🔎 Engineering Philosophy
+## 🎯Security & Protocol Engineering Opportunities
 
-Security is not about passing tests —  
-it is about preserving protocol invariants under adversarial conditions.
+I specialize in building and auditing decentralized systems with an emphasis on invariant safety, adversarial resilience, and economic correctness.
 
-I focus on correctness, edge-case safety, and economic robustness in decentralized systems.
+I am currently open to smart contract security, DeFi protocol engineering, and Solidity-focused roles where rigorous systems thinking and production-grade reliability are essential.
