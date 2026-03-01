@@ -9,7 +9,7 @@
 <a href="https://code4rena.com/@Sourav_DEV">
   <img src="https://img.shields.io/badge/Code4rena-Watson-b02a37?style=flat-square&labelColor=111111" />
 </a>
-<a href="https://cantina.com/0xSourav">
+<a href="https://cantina.xyz/u/0xSourav">
   <img src="https://img.shields.io/badge/Cantina-Security%20Researcher-2c2c2c?style=flat-square&labelColor=111111" />
 </a>
 <a href="https://profiles.cyfrin.io/u/sourav_dev">
@@ -27,14 +27,14 @@
 
 - **Sherlock:** https://audits.sherlock.xyz/watson/sourav_DEV  
 - **Code4rena:** https://code4rena.com/@Sourav_DEV  
-- **Cantina:** https://cantina.com/0xSourav  
+- **Cantina:** https://cantina.xyz/u/0xSourav 
 - **Cyfrin:** https://profiles.cyfrin.io/u/sourav_dev  
 - **LeetCode:** https://leetcode.com/u/SouravIIIT  
 
 ## 📫 Connect With Me
 
 - **Email:** sourav.dev.official@outlook.com  
-- **X (Twitter):** @0xSouravAudit  
+- **X (Twitter):** https://x.com/0xSouravAudit 
 - **LinkedIn:** https://linkedin.com/in/0xsourav  
 - **Discord:** miracles_25
 
