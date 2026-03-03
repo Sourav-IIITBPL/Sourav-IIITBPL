@@ -44,7 +44,7 @@
 
 Security-focused engineer auditing production-grade DeFi protocols with emphasis on invariant preservation and economic safety.
 
-- Audited **16+ DeFi systems**
+- Audited **18+ DeFi systems**
 - Reported multiple High and Medium severity vulnerabilities
 - Built PoC exploits demonstrating:
   - Invariant violations
@@ -110,7 +110,7 @@ Focused on secure transaction design and protocol-aware interaction flows.
 
 ## 🚀 Major Engineering Projects
 
-### 🔐 Preflight — Pre-Transaction Security Layer (Arbitrum)
+### Preflight — Pre-Transaction Security Layer (Arbitrum)
 
 Protocol-aware validation middleware for DeFi transactions.
 
@@ -123,21 +123,21 @@ Project:
 https://github.com/Sourav-IIITBPL/preflight  
 
 
-### 🏦 UniV2ExchangeDesk — Multi-DEX Aggregator
+### DexGateway  — Multi-DEX Aggregator
 
-Swap infrastructure integrating 7 Uniswap V2 forks.
+Swap infrastructure integrating 7 Uniswap V2 forks across 9 blockchain networks.
 
 - Cross-DEX routing & liquidity management  
 - Reserve tracking & price impact logic  
 - Secure frontend–contract interaction  
 
 Project:  
-https://github.com/Sourav-IIITBPL/UniV2ExchangeDesk  
+https://github.com/Sourav-IIITBPL/DexGateway 
 
 
 ## 🧠 Competitive Programming
 
-- 200+ algorithmic problems solved  
+- 250+ algorithmic problems solved  
 - Strong foundation in graph theory, DP, and optimization  
 
 LeetCode:  https://leetcode.com/u/SouravIIIT 
