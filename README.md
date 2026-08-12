@@ -28,16 +28,11 @@ smart contract engineering, protocol security, and adversarial research.
 
 ---
 
-## 📊 Snapshot
+## Snapshot
 
-<div align="center">
-
-![Protocols Audited](https://img.shields.io/badge/Protocols_Audited-20%2B-5a3fc0?style=for-the-badge&labelColor=0d1117)
-![Commits](https://img.shields.io/badge/Commits-270%2B-2ea44f?style=for-the-badge&labelColor=0d1117&logo=git&logoColor=white)
-![Pull Requests](https://img.shields.io/badge/Pull_Requests-2-0969da?style=for-the-badge&labelColor=0d1117&logo=github&logoColor=white)
-![Issues Raised](https://img.shields.io/badge/Issues_Raised-28-d29922?style=for-the-badge&labelColor=0d1117&logo=github&logoColor=white)
-
-</div>
+<p align="center">
+  <img src="./assets/github-snapshot.svg" alt="GitHub Snapshot" />
+</p>
 
 ---
 
@@ -162,25 +157,18 @@ Independent smart contract security researcher focused on DeFi protocol security
 
 ---
 
-## 📈 GitHub Activity
+## GitHub Activity
 
-<div align="center">
-
-<img height="165em" src="https://github-readme-stats.vercel.app/api?username=Sourav-IIITBPL&show_icons=true&theme=dark&hide_border=true&count_private=true"/>
-<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sourav-IIITBPL&layout=compact&theme=dark&hide_border=true"/>
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Sourav-IIITBPL&theme=dark&hide_border=true"/>
-
-</div>
+<p align="center">
+  <img src="./assets/github-activity.svg" alt="GitHub Activity" />
+</p>
 
 ---
 
 ## 🏆 Achievements & Certifications
 
 - **HackVision 2026** — Top 100 finalist among 400+ teams
-- **Cyfrin Updraft Certified** — advanced Solidity, security, and protocol testing
+- **Cyfrin Updraft Certifications** — advanced Solidity, security, and protocol testing
 - **HER DAO Rust Cohort 1** graduate
 - **Smart India Hackathon 2024** — national participant, team lead
 - **AlgoUniversity Tech Fellowship** — 2024 and 2025 cohorts
@@ -188,16 +176,27 @@ Independent smart contract security researcher focused on DeFi protocol security
 
 ---
 
-## 🎓 Education
+## Education
 
-**B.Tech, Electronics & Communication Engineering** — IIIT Bhopal, Class of 2027
+**B.Tech, Electronics & Communication Engineering** — IIIT Bhopal  
+*Expected Graduation: 2027*
 
 ---
 
 <div align="center">
 
-### Open to smart contract security, DeFi protocol engineering, and Solidity-focused roles
+### Open to Smart Contract Security, DeFi Protocol Engineering & Web3 Engineering Roles
 
 **sourav.dev.official@outlook.com**
 
+[LinkedIn](https://linkedin.com/in/0xsourav) ·
+[X](https://x.com/0xSouravAudit) ·
+[GitHub](https://github.com/Sourav-IIITBPL)
+
 </div>
+
+---
+
+<p align="center">
+  <img src="./assets/profile-views.svg" alt="Profile Views" />
+</p>
