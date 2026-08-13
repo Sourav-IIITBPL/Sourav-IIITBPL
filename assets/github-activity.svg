@@ -1,0 +1,85 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="700"
+  height="95"
+  viewBox="0 0 700 95"
+  role="img"
+  aria-label="GitHub activity streak"
+>
+  <rect
+    width="700"
+    height="95"
+    rx="16"
+    fill="#0d1117"
+    stroke="#30363d"
+    stroke-width="1"
+  />
+
+  <text
+    x="32"
+    y="39"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="16"
+    fill="#f0f6fc"
+  >🔥</text>
+
+  <text
+    x="58"
+    y="39"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="15"
+    font-weight="600"
+    fill="#c9d1d9"
+  >Current Streak</text>
+
+  <text
+    x="180"
+    y="39"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="17"
+    font-weight="700"
+    fill="#f0f6fc"
+  >0 days</text>
+
+  <line
+    x1="350"
+    y1="22"
+    x2="350"
+    y2="58"
+    stroke="#30363d"
+  />
+
+  <text
+    x="382"
+    y="39"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="16"
+    fill="#f0f6fc"
+  >⚡</text>
+
+  <text
+    x="408"
+    y="39"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="15"
+    font-weight="600"
+    fill="#c9d1d9"
+  >Longest Streak</text>
+
+  <text
+    x="545"
+    y="39"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="17"
+    font-weight="700"
+    fill="#f0f6fc"
+  >8 days</text>
+
+  <text
+    x="32"
+    y="69"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="11"
+    fill="#8b949e"
+  >Updated automatically from GitHub</text>
+</svg>
