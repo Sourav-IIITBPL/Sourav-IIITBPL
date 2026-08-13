@@ -41,5 +41,6 @@ jobs:
             echo "No stats changes detected."
           else
             git commit -m "chore: update GitHub profile stats"
-            git push
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
           fi
