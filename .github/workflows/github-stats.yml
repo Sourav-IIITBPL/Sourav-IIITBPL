@@ -1,22 +1,19 @@
-name: GitHub Profile Stats
+name: GitHub Stats
 
 on:
   schedule:
-    # Every day at 00:00 UTC (05:30 AM IST)
     - cron: "0 0 * * *"
-
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  generate-stats:
-    name: Generate Profile Stats
+  github-stats:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Setup Node.js
@@ -26,11 +23,11 @@ jobs:
 
       - name: Generate GitHub stats
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
           GITHUB_USERNAME: Sourav-IIITBPL
         run: node scripts/github-stats.js
 
-      - name: Commit updated stats
+      - name: Commit generated assets
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -38,9 +35,8 @@ jobs:
           git add assets/
 
           if git diff --cached --quiet; then
-            echo "No stats changes detected."
+            echo "No changes to commit."
           else
-            git commit -m "chore: update GitHub profile stats"
-            git pull --rebase origin "${GITHUB_REF_NAME}"
-            git push origin "HEAD:${GITHUB_REF_NAME}"
+            git commit -m "chore: update GitHub stats"
+            git push
           fi

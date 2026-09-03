@@ -2,27 +2,31 @@
 
 # Sourav Yadav
 
-### Web3 Builder · Smart Contract Security Researcher · DeFi Protocol Engineer
+### Software Development Engineer · Web3 Protocol Engineer · Smart Contract Security Researcher · AI-Native Builder
 
-Building and securing DeFi protocols and blockchain infrastructure, with a focus on
-smart contract engineering, protocol security, and adversarial research.
+Building reliable software across backend systems, blockchain protocols, smart contracts, and AI-native engineering workflows.
 
 **21+ DeFi protocols audited · 4+ Web3 projects engineered**
 
 <br/>
 
+[![LeetCode](https://img.shields.io/badge/LeetCode-Knight%201868-FFA116?style=flat-square&logo=leetcode&logoColor=white&labelColor=0d1117)](https://leetcode.com/u/SouravIIIT)
+[![CodeChef](https://img.shields.io/badge/CodeChef-2★-5B4638?style=flat-square&logo=codechef&logoColor=white&labelColor=0d1117)](https://www.codechef.com/users/sourav_yadav25)
 [![Sherlock](https://img.shields.io/badge/Sherlock-Researcher-5a3fc0?style=flat-square&labelColor=0d1117)](https://audits.sherlock.xyz/watson/sourav_DEV)
 [![Code4rena](https://img.shields.io/badge/Code4rena-Watson-b02a37?style=flat-square&labelColor=0d1117)](https://code4rena.com/@Sourav_DEV)
 [![Cantina](https://img.shields.io/badge/Cantina-Researcher-3f3f3f?style=flat-square&labelColor=0d1117)](https://cantina.xyz/u/0xSourav)
 [![Cyfrin](https://img.shields.io/badge/Cyfrin-Certified-1e7e34?style=flat-square&labelColor=0d1117)](https://profiles.cyfrin.io/u/sourav_dev)
-[![LeetCode](https://img.shields.io/badge/LeetCode-Knight%201868-FFA116?style=flat-square&logo=leetcode&logoColor=white&labelColor=0d1117)](https://leetcode.com/u/SouravIIIT)
 
 <br/>
 
-[X](https://x.com/0xSouravAudit) ·
+[GitHub](https://github.com/Sourav-IIITBPL) ·
 [LinkedIn](https://linkedin.com/in/0xsourav) ·
-[Email](mailto:sourav.dev.official@outlook.com) ·
-[Discord](https://discord.com)
+[X](https://x.com/0xSouravAudit) ·
+[Email](mailto:sourav.dev.official@outlook.com)
+
+<br/>
+
+![Profile Views](https://komarev.com/ghpvc/?username=Sourav-IIITBPL&color=0d1117&style=flat-square&label=Profile+Views)
 
 </div>
 
@@ -36,26 +40,31 @@ smart contract engineering, protocol security, and adversarial research.
 
 ---
 
-## Audit Work
+## About
 
-Independent smart contract security researcher focused on DeFi protocol security, adversarial analysis, protocol invariants, and complex accounting systems.
+I'm a software engineer focused on building and securing complex systems across **backend engineering, Web3 protocols, smart contracts, and AI-native development**.
 
-**21 production DeFi protocols audited** across [Sherlock](https://audits.sherlock.xyz/watson/sourav_DEV), [Code4rena](https://code4rena.com/@Sourav_DEV), and [Cantina](https://cantina.xyz/u/0xSourav).
+My Web3 work spans **DeFi protocol engineering and security research**—from Solidity development and protocol architecture to invariant analysis, fuzzing, exploit PoCs, and adversarial review.
 
-### Core Security Areas
+I also build with **AI-native and agentic workflows**, using LLMs and developer agents to accelerate architecture, implementation, testing, code review, and automation while continuing to deepen my foundations in ML, LLM systems, RAG, and evaluation.
 
-- Smart contract review, protocol invariants, fuzzing and invariant testing
-- Reentrancy, access control, proxy and upgradeability risks
-- Storage layout, state transitions, accounting and economic attack surfaces
-- Liquidation mechanics, health factors and interest-rate models
+**Currently open to:** Software Development · Web3 Protocol Engineering · Smart Contract Security · AI-Native / Applied AI Engineering
 
-### Protocol & DeFi Depth
+---
 
-- **AMMs:** Uniswap V2/V3, concentrated liquidity and reserve mathematics.
-- **Lending & Vaults:** Aave V3/V4, ERC-4626, share pricing, redemption and accounting edge cases.
-- **Token Standards:** ERC-20, ERC-721, ERC-1155, ERC-165, ERC-4626, ERC-7575, ERC-6909, ERC-7521.
+## Engineering Focus
 
-[View Audit Archive →](https://github.com/Sourav-IIITBPL/audits)
+### 🧱 Software Engineering
+DSA · OOP · DBMS · OS · Networks · System Design · Backend · APIs · Full-Stack
+
+### ⛓️ Web3 & Protocol Engineering
+Smart Contracts · EVM · DeFi · DEX Infrastructure · Vaults · Protocol Architecture
+
+### 🛡️ Smart Contract Security
+Manual Audits · Invariant Analysis · Fuzzing · Exploit PoCs · Adversarial Testing · Protocol Accounting
+
+### 🤖 AI-Native Engineering
+LLM Applications · RAG · Agentic Workflows · AI-Assisted Development · Developer Automation · Evaluation
 
 ---
 
@@ -63,27 +72,59 @@ Independent smart contract security researcher focused on DeFi protocol security
 
 ### PreFlight
 
-- Built a pre-transaction security middleware for DEX and ERC-4626 vault interactions, analyzing transactions before execution.
-- Combined Chainlink CRE-based off-chain simulation with on-chain guard contracts for protocol invariant and risk validation.
-- Implemented transaction decoding, NFT-based risk reporting, and execute/abort workflows; deployed across Base, Ethereum, and Arbitrum testnets.
+**Pre-Transaction Security Middleware**
+
+- Built transaction-analysis middleware for **DEX and ERC-4626 vault interactions**, validating transactions before execution.
+- Combined **Chainlink CRE off-chain simulation** with on-chain guard contracts for protocol and transaction-risk validation.
+- Implemented transaction decoding, backend workflow orchestration, contract interaction layers and NFT-based risk reporting.
+- Built a reusable React/TypeScript interface with execute/abort workflows.
+- Deployed across **Base, Ethereum and Arbitrum testnets**.
 
 [Repository →](https://github.com/Sourav-IIITBPL/preflight)
 
 ### Protocol Invariant Checker
 
-- Built a modular Rust CLI for automated DeFi protocol security analysis, invariant testing, and structured audit reporting.
-- Designed a protocol-agnostic architecture around a shared interface, allowing new protocol implementations without modifying the core analysis engine.
-- Generates standardized security reports with severity classification and actionable vulnerability insights.
+**Automated DeFi Security Analysis Framework**
+
+- Built a modular **Rust CLI** for protocol security analysis, invariant testing and structured audit reporting.
+- Designed a protocol-agnostic architecture using trait-based abstractions.
+- Allows new protocol implementations to be integrated without modifying the core analysis engine.
+- Produces structured security reports with severity classification and actionable vulnerability insights.
 
 [Repository →](https://github.com/Sourav-IIITBPL/protocol-invariant-checker)
 
 ### DexGateway
 
-- Built multi-chain DEX routing infrastructure integrating 7 Uniswap V2-style DEXs across 9 networks.
-- Designed unified router abstractions for token swaps, liquidity provisioning, and liquidity withdrawal across fragmented liquidity environments.
-- Engineered liquidity discovery, execution routing, and frontend transaction workflows for multi-chain DEX interactions.
+**Multi-Chain DEX Routing Infrastructure**
+
+- Built unified DEX routing infrastructure integrating **7 Uniswap V2-style DEXs across 9 networks**.
+- Designed reusable router abstractions for swaps, liquidity provisioning and liquidity withdrawal.
+- Implemented liquidity discovery and execution routing across fragmented liquidity environments.
+- Engineered multi-chain transaction workflows connecting protocol infrastructure with the frontend.
 
 [Repository →](https://github.com/Sourav-IIITBPL/DexGateway)
+
+---
+
+## Smart Contract Security Track Record
+
+Independent security researcher participating across **Sherlock, Code4rena and Cantina** since July 2025.
+
+- **21+ production DeFi protocols audited**
+- AMMs, lending markets, ERC-4626 vaults, staking and DEX infrastructure
+- Focused on protocol accounting, invariants, state transitions and economic attack surfaces
+- Manual review → invariant analysis → adversarial testing → Foundry PoC → root-cause analysis
+
+[Audit Archive →](https://github.com/Sourav-IIITBPL/audits)
+
+---
+
+## Competitive Programming
+
+- 🏆 **[LeetCode Knight](https://leetcode.com/u/SouravIIIT)** — 1868 rating
+- ⭐ **[CodeChef 2★](https://www.codechef.com/users/sourav_yadav25)**
+- 💡 **500+ DSA problems solved**
+- Strong foundation in algorithms, data structures, and problem solving
 
 ---
 
@@ -121,11 +162,20 @@ Independent smart contract security researcher focused on DeFi protocol security
 
 ![Uniswap](https://img.shields.io/badge/Uniswap-FF007A?style=flat&logo=uniswap&logoColor=white)
 ![Aave](https://img.shields.io/badge/Aave-2EBAC6?style=flat&logo=aave&logoColor=white)
-![ERC--4626](https://img.shields.io/badge/ERC--4626-363636?style=flat)
+![ERC-4626](https://img.shields.io/badge/ERC--4626-363636?style=flat)
 ![AMMs](https://img.shields.io/badge/AMMs-363636?style=flat)
 ![Lending](https://img.shields.io/badge/Lending-363636?style=flat)
 ![DEX Routing](https://img.shields.io/badge/DEX_Routing-363636?style=flat)
 ![Staking](https://img.shields.io/badge/Staking-363636?style=flat)
+
+### AI / ML & Agentic Engineering
+
+![LLM APIs](https://img.shields.io/badge/LLM_APIs-black?style=flat)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat&logo=huggingface&logoColor=black)
+![Claude](https://img.shields.io/badge/Claude-D97757?style=flat)
+![RAG](https://img.shields.io/badge/RAG_Pipelines-363636?style=flat)
+![Agentic Engineering](https://img.shields.io/badge/Agentic_Engineering-363636?style=flat)
 
 ### Backend & Data
 
@@ -168,11 +218,10 @@ Independent smart contract security researcher focused on DeFi protocol security
 ## 🏆 Achievements & Certifications
 
 - **HackVision 2026** — Top 100 finalist among 400+ teams
-- **Cyfrin Updraft Certifications** — advanced Solidity, security, and protocol testing
-- **HER DAO Rust Cohort 1** graduate
-- **Smart India Hackathon 2024** — national participant, team lead
-- **AlgoUniversity Tech Fellowship** — 2024 and 2025 cohorts
-- 500+ DSA problems solved · **LeetCode Knight, 1868 rating**
+- **Cyfrin Updraft Certifications** — advanced Solidity, security and protocol testing
+- **HER DAO Rust Cohort 1** — Graduate
+- **Smart India Hackathon 2024** — National participant, Team Lead
+- **AlgoUniversity Tech Fellowship** — 2024 & 2025 cohorts
 
 ---
 
@@ -185,18 +234,8 @@ Independent smart contract security researcher focused on DeFi protocol security
 
 <div align="center">
 
-### Open to Smart Contract Security, DeFi Protocol Engineering & Web3 Engineering Roles
+### Open to Software Development · Web3 Protocol Engineering · Smart Contract Security · AI-Native Engineering Roles
 
 **sourav.dev.official@outlook.com**
 
-[LinkedIn](https://linkedin.com/in/0xsourav) ·
-[X](https://x.com/0xSouravAudit) ·
-[GitHub](https://github.com/Sourav-IIITBPL)
-
 </div>
-
----
-
-<p align="center">
-  <img src="./assets/profile-views.svg" alt="Profile Views" />
-</p>
