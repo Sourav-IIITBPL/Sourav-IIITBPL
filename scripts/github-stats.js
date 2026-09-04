@@ -1,5 +1,5 @@
-const fs = require("fs");
-const path = require("path");
+import fs from "node:fs";
+import path from "node:path";
 
 const TOKEN = process.env.GITHUB_TOKEN;
 const USERNAME = process.env.GITHUB_USERNAME || "Sourav-IIITBPL";
