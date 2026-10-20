@@ -2,15 +2,13 @@
 
 # Sourav Yadav
 
-### Software Development Engineer · Web3 Protocol Engineer · Smart Contract Security Researcher · AI-Native Builder
+### Software Engineer · Backend & Full-Stack Developer · Web3 Protocol Engineer · Smart Contract Security Researcher
 
-Building reliable software across backend systems, blockchain protocols, smart contracts, and AI-native engineering workflows.
-
-**21+ DeFi protocols audited · 4+ Web3 projects engineered**
+Building reliable software across backend systems, full-stack applications, Web3 protocols, and smart contract security.
 
 <br/>
 
-[![LeetCode](https://img.shields.io/badge/LeetCode-Knight%201868-FFA116?style=flat-square&logo=leetcode&logoColor=white&labelColor=0d1117)](https://leetcode.com/u/SouravIIIT)
+[![LeetCode](https://img.shields.io/badge/LeetCode-Knight%201892-FFA116?style=flat-square&logo=leetcode&logoColor=white&labelColor=0d1117)](https://leetcode.com/u/SouravIIIT)
 [![CodeChef](https://img.shields.io/badge/CodeChef-2★-5B4638?style=flat-square&logo=codechef&logoColor=white&labelColor=0d1117)](https://www.codechef.com/users/sourav_yadav25)
 [![Sherlock](https://img.shields.io/badge/Sherlock-Researcher-5a3fc0?style=flat-square&labelColor=0d1117)](https://audits.sherlock.xyz/watson/sourav_DEV)
 [![Code4rena](https://img.shields.io/badge/Code4rena-Watson-b02a37?style=flat-square&labelColor=0d1117)](https://code4rena.com/@Sourav_DEV)
@@ -42,29 +40,31 @@ Building reliable software across backend systems, blockchain protocols, smart c
 
 ## About
 
-I'm a software engineer focused on building and securing complex systems across **backend engineering, Web3 protocols, smart contracts, and AI-native development**.
+I am a software engineer focused on building and securing complex, high-reliability software across **backend systems, full-stack web applications, Web3 protocols, and smart contract security**.
 
-My Web3 work spans **DeFi protocol engineering and security research**—from Solidity development and protocol architecture to invariant analysis, fuzzing, exploit PoCs, and adversarial review.
+- **Software & Systems Engineering:** Building modular REST services, database pipelines (PostgreSQL/Redis), and decoupled React/TypeScript frontends with rigorous testing, validation, and practical AI tooling.
+- **Web3 Protocols & Security:** Developing EVM smart contracts (Solidity/Foundry), multi-chain DEX routing infrastructure, and conducting invariant testing, fuzzing, and competitive audit reviews.
 
-I also build with **AI-native and agentic workflows**, using LLMs and developer agents to accelerate architecture, implementation, testing, code review, and automation while continuing to deepen my foundations in ML, LLM systems, RAG, and evaluation.
-
-**Currently open to:** Software Development · Web3 Protocol Engineering · Smart Contract Security · AI-Native / Applied AI Engineering
+**Currently open to:** Software Development Engineer (SDE) · Backend & Full-Stack Engineering · Web3 Protocol Engineering · Smart Contract Security
 
 ---
 
 ## Engineering Focus
 
-### 🧱 Software Engineering
-DSA · OOP · DBMS · OS · Networks · System Design · Backend · APIs · Full-Stack
+### 🧱 Software Engineering & Systems
+DSA · OOP · DBMS · Operating Systems · Computer Networks · System Design · REST APIs · Full-Stack Development
+
+### ⚙️ Backend & Architecture
+Node.js · Express.js · PostgreSQL · MySQL · Redis · Prisma ORM · API Validation (Zod) · Modular Architecture · Workflow Orchestration
 
 ### ⛓️ Web3 & Protocol Engineering
-Smart Contracts · EVM · DeFi · DEX Infrastructure · Vaults · Protocol Architecture
+Solidity · EVM · DeFi · DEX Routing · Uniswap V2 · ERC-4626 Vaults · Protocol Architecture · Foundry · Viem
 
 ### 🛡️ Smart Contract Security
-Manual Audits · Invariant Analysis · Fuzzing · Exploit PoCs · Adversarial Testing · Protocol Accounting
+Manual Code Review · Invariant Analysis · Fuzz Testing · Exploit PoCs · Adversarial Testing · Protocol Accounting
 
 ### 🤖 AI-Native Engineering
-LLM Applications · RAG · Agentic Workflows · AI-Assisted Development · Developer Automation · Evaluation
+LLM API Integration · Agentic Workflows · AI-Assisted Development · Developer Automation · Prompt Engineering
 
 ---
 
@@ -72,24 +72,19 @@ LLM Applications · RAG · Agentic Workflows · AI-Assisted Development · Devel
 
 ### PreFlight
 
-**Pre-Transaction Security Middleware**
+**Zero-Trust DeFi Transaction Security Platform**
 
-- Built transaction-analysis middleware for **DEX and ERC-4626 vault interactions**, validating transactions before execution.
-- Combined **Chainlink CRE off-chain simulation** with on-chain guard contracts for protocol and transaction-risk validation.
-- Implemented transaction decoding, backend workflow orchestration, contract interaction layers and NFT-based risk reporting.
-- Built a reusable React/TypeScript interface with execute/abort workflows.
-- Deployed across **Base, Ethereum and Arbitrum testnets**.
+- Architected a hybrid risk engine with 4 modular Solidity guards (covering AMMs and ERC-4626 vaults) deployed on Arbitrum, Ethereum, and Base Sepolia testnets.
+- Integrated Chainlink CRE off-chain simulation on forked state and trace analysis to detect suspicious calls, `DELEGATECALL` activity, and unexpected ERC-20 transfers before execution.
 
-[Repository →](https://github.com/Sourav-IIITBPL/preflight)
+[Repository →](https://github.com/Sourav-IIITBPL/preflight) · [Live Demo →](https://preflight-v1.vercel.app/)
 
 ### Protocol Invariant Checker
 
-**Automated DeFi Security Analysis Framework**
+**Modular DeFi Security Analysis Framework & Rust CLI**
 
-- Built a modular **Rust CLI** for protocol security analysis, invariant testing and structured audit reporting.
-- Designed a protocol-agnostic architecture using trait-based abstractions.
-- Allows new protocol implementations to be integrated without modifying the core analysis engine.
-- Produces structured security reports with severity classification and actionable vulnerability insights.
+- Developed a modular Rust CLI for protocol invariant testing and audit reporting using a protocol-agnostic `Protocol` trait architecture.
+- Integrated an ERC-4626 vault module with 6 documented invariants, state simulation, and severity-rated findings; 11 passing tests.
 
 [Repository →](https://github.com/Sourav-IIITBPL/protocol-invariant-checker)
 
@@ -97,23 +92,40 @@ LLM Applications · RAG · Agentic Workflows · AI-Assisted Development · Devel
 
 **Multi-Chain DEX Routing Infrastructure**
 
-- Built unified DEX routing infrastructure integrating **7 Uniswap V2-style DEXs across 9 networks**.
-- Designed reusable router abstractions for swaps, liquidity provisioning and liquidity withdrawal.
-- Implemented liquidity discovery and execution routing across fragmented liquidity environments.
-- Engineered multi-chain transaction workflows connecting protocol infrastructure with the frontend.
+- Engineered full-stack DEX routing infrastructure across 7 Uniswap V2-style DEXes using reusable router abstractions for swaps and liquidity management.
+- Implemented liquidity discovery algorithms, multi-chain transaction workflows, and seamless frontend state tracking.
 
 [Repository →](https://github.com/Sourav-IIITBPL/DexGateway)
+
+### FLUX
+
+**Intelligent Creative Layout Engine**
+
+- Built a deterministic constraint-satisfaction layout engine with priority sizing, repositioning, and AABB collision resolution across 8 tested viewports.
+- Fully decoupled pure-function layout math from React rendering (zero DOM measurement overhead); managed state with Zustand and Framer Motion.
+
+[Repository →](https://github.com/Sourav-IIITBPL/FLUX-Intelligent-Creative-Layout-Engine) · [Live Demo →](https://flux-intelligent-creative-layout-en.vercel.app/)
+
+### AI Trip Planner
+
+**Full-Stack AI-Powered Itinerary Generator**
+
+- Built a full-stack web application converting natural language travel requests into structured day-by-day itineraries via Google Gemini.
+- Architected a secure Node.js/Express backend keeping API keys server-side with strict Zod schema validation and defensive error handling.
+
+[Repository →](https://github.com/Sourav-IIITBPL/ai-trip-planner) · [Live Demo →](https://ai-trip-planner-v1.vercel.app/)
 
 ---
 
 ## Smart Contract Security Track Record
 
-Independent security researcher participating across **Sherlock, Code4rena and Cantina** since July 2025.
+Independent security researcher participating across **Sherlock, Code4rena, and Cantina** since July 2025.
 
-- **21+ production DeFi protocols audited**
-- AMMs, lending markets, ERC-4626 vaults, staking and DEX infrastructure
-- Focused on protocol accounting, invariants, state transitions and economic attack surfaces
-- Manual review → invariant analysis → adversarial testing → Foundry PoC → root-cause analysis
+- **20+ smart contract codebases audited** across competitive audits and security contests
+- **11 validated findings:** 2 High, 3 Medium, and 6 Low severity vulnerabilities
+- Reviewed AMMs, lending protocols, ERC-4626 vaults, staking mechanisms, and DEX infrastructure
+- Focused on protocol accounting, invariant analysis, state transitions, and economic attack vectors
+- Applied systematic methodology: manual code review → invariant reasoning → adversarial edge-case testing → reproducible Foundry PoC → root-cause reporting
 
 [Audit Archive →](https://github.com/Sourav-IIITBPL/audits)
 
@@ -121,10 +133,9 @@ Independent security researcher participating across **Sherlock, Code4rena and C
 
 ## Competitive Programming
 
-- 🏆 **[LeetCode Knight](https://leetcode.com/u/SouravIIIT)** — 1868 rating
-- ⭐ **[CodeChef 2★](https://www.codechef.com/users/sourav_yadav25)**
-- 💡 **500+ DSA problems solved**
-- Strong foundation in algorithms, data structures, and problem solving
+- 🏆 **[LeetCode Knight](https://leetcode.com/u/SouravIIIT)** — 1892 max rating · 500+ problems solved
+- ⭐ **[CodeChef 2★](https://www.codechef.com/users/sourav_yadav25)** — 1543 max rating
+- Strong foundations in data structures, algorithms, complexity analysis, and mathematical problem solving
 
 ---
 
@@ -132,12 +143,24 @@ Independent security researcher participating across **Sherlock, Code4rena and C
 
 ### Languages
 
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat&logo=solidity&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat&logo=solidity&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
+
+### Backend & Data
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat&logo=prisma&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=flat&logo=jsonwebtokens&logoColor=white)
+![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat&logo=zod&logoColor=white)
 
 ### Smart Contracts & Security
 
@@ -151,49 +174,35 @@ Independent security researcher participating across **Sherlock, Code4rena and C
 
 ### Web3 & Blockchain
 
-![Ethers.js](https://img.shields.io/badge/Ethers.js-2535A0?style=flat)
+![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=flat&logo=ethereum&logoColor=white)
+![Arbitrum](https://img.shields.io/badge/Arbitrum-28A0F0?style=flat&logo=arbitrum&logoColor=white)
+![Base](https://img.shields.io/badge/Base-0052FF?style=flat&logo=base&logoColor=white)
 ![Viem](https://img.shields.io/badge/Viem-1C1C1C?style=flat)
+![Ethers.js](https://img.shields.io/badge/Ethers.js-2535A0?style=flat)
 ![Wagmi](https://img.shields.io/badge/Wagmi-1C1C1C?style=flat)
-![Web3.js](https://img.shields.io/badge/Web3.js-F16822?style=flat&logo=web3dotjs&logoColor=white)
 ![The Graph](https://img.shields.io/badge/The_Graph-6747ED?style=flat&logo=thegraph&logoColor=white)
-![Chainlink](https://img.shields.io/badge/Chainlink-375BD2?style=flat&logo=chainlink&logoColor=white)
-
-### DeFi
-
+![Chainlink](https://img.shields.io/badge/Chainlink_CRE-375BD2?style=flat&logo=chainlink&logoColor=white)
 ![Uniswap](https://img.shields.io/badge/Uniswap-FF007A?style=flat&logo=uniswap&logoColor=white)
-![Aave](https://img.shields.io/badge/Aave-2EBAC6?style=flat&logo=aave&logoColor=white)
 ![ERC-4626](https://img.shields.io/badge/ERC--4626-363636?style=flat)
-![AMMs](https://img.shields.io/badge/AMMs-363636?style=flat)
-![Lending](https://img.shields.io/badge/Lending-363636?style=flat)
-![DEX Routing](https://img.shields.io/badge/DEX_Routing-363636?style=flat)
-![Staking](https://img.shields.io/badge/Staking-363636?style=flat)
-
-### AI / ML & Agentic Engineering
-
-![LLM APIs](https://img.shields.io/badge/LLM_APIs-black?style=flat)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat)
-![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat&logo=huggingface&logoColor=black)
-![Claude](https://img.shields.io/badge/Claude-D97757?style=flat)
-![RAG](https://img.shields.io/badge/RAG_Pipelines-363636?style=flat)
-![Agentic Engineering](https://img.shields.io/badge/Agentic_Engineering-363636?style=flat)
-
-### Backend & Data
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat&logo=prisma&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-000000?style=flat&logo=jsonwebtokens&logoColor=white)
 
 ### Frontend
 
 ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
+![Zustand](https://img.shields.io/badge/Zustand-443e38?style=flat)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat&logo=framer&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+
+### AI / ML & Agentic Engineering
+
+![LLM APIs](https://img.shields.io/badge/LLM_APIs-black?style=flat)
+![Google Gemini](https://img.shields.io/badge/Google_Gemini-8E75C2?style=flat&logo=googlegemini&logoColor=white)
+![Agentic Workflows](https://img.shields.io/badge/Agentic_Workflows-363636?style=flat)
+![AI-Assisted Dev](https://img.shields.io/badge/AI--Assisted_Development-1C3C3C?style=flat)
+![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-363636?style=flat)
 
 ### Platforms & Tools
 
@@ -203,7 +212,6 @@ Independent security researcher participating across **Sherlock, Code4rena and C
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visualstudiocode&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
-![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=flat&logo=netlify&logoColor=white)
 
 ---
 
@@ -217,24 +225,27 @@ Independent security researcher participating across **Sherlock, Code4rena and C
 
 ## 🏆 Achievements & Certifications
 
+- **LeetCode Knight** — 1892 max rating · 500+ DSA problems solved
+- **CodeChef 2-Star Coder** — 1543 max rating
 - **HackVision 2026** — Top 100 finalist among 400+ teams
-- **Cyfrin Updraft Certifications** — advanced Solidity, security and protocol testing
+- **Smart India Hackathon 2024** — National-level Participant & Team Lead
+- **Cyfrin Updraft** — Smart Contract Development & Security Certification
+- **AlgoUniversity Tech Fellowship** — 2024 Stage 1 qualifier (Top 4,000 among 20,000 participants)
 - **HER DAO Rust Cohort 1** — Graduate
-- **Smart India Hackathon 2024** — National participant, Team Lead
-- **AlgoUniversity Tech Fellowship** — 2024 & 2025 cohorts
 
 ---
 
 ## Education
 
-**B.Tech, Electronics & Communication Engineering** — IIIT Bhopal  
-*Expected Graduation: 2027*
+**Indian Institute of Information Technology, Bhopal**  
+*B.Tech in Electronics & Communication Engineering* · CGPA: 7.57/10  
+Expected Graduation: 2027
 
 ---
 
 <div align="center">
 
-### Open to Software Development · Web3 Protocol Engineering · Smart Contract Security · AI-Native Engineering Roles
+### Open to Software Development · Backend & Full-Stack · Web3 Protocol Engineering · Smart Contract Security Roles
 
 **sourav.dev.official@outlook.com**
 
